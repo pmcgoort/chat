@@ -1,0 +1,159 @@
+$size: 5vh;
+
+#back{
+  font-size: $size;
+  position: relative;
+  top: $size * 1.404;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+}
+
+#recipientContainer{
+  width: $size * 8;
+  position: relative;
+  top: $size / 1.875;
+}
+
+#recipient{
+  text-align: center;
+  background-color: #E1E1E1; //light gray
+  font-size: $size / 1.875;
+}
+
+#messageContainer{
+  width: $size * 8;
+  height: 70vh;
+  overflow: auto;
+  background-color: #F7F7F7; //very light gray
+}
+
+.message{
+  padding: $size / 6.25;
+  border-radius: $size / 3.125;
+  font-size: $size / 3.125;
+  width: fit-content;
+  max-width: $size * 5.6;
+}
+
+.messageFloat{
+  overflow: auto
+}
+
+.senderMessage{
+  background-color: #54F428; //green
+  color: black;
+  float: right;
+  margin-right: $size / 5;
+}
+
+.recipientMessage{
+  background-color: #65A2ED; //blue
+  color: white;
+  margin-left: $size / 5;
+}
+
+
+#submitMessageButton{
+  background-color: #54F428;
+  position: relative;
+  bottom: $size / 2;
+  left: $size / 3.75;
+}
+
+#newMessage{
+  width: $size * 8;
+  height: $size;
+}
+
+#container{
+  background-color: #F7F7F7;
+  width: $size * 8;
+}
+
+.chatPartner{
+  font-size: $size / 2.5;
+  margin-top: $size / 5;
+  height: $size;
+  width: $size * 4;
+  border-radius: $size;
+  background-color: #E1E1E1;
+  text-align: center;
+  line-height: $size;
+  cursor: pointer;
+  margin-left: 25%;
+}
+
+.chatPartnerDelete{
+  font-size: $size / 2.5;
+  margin-top: $size / 5;
+  height: $size;
+  width: $size * 4;
+  border-radius: $size;
+  background-color: #F63D3D;
+  text-align: center;
+  line-height: $size;
+  cursor: pointer;
+  margin-left: 25%;
+}
+
+#newChat{
+  font-size: $size / 2.5;
+  margin-top: $size / 5;
+  height: $size;
+  width: $size * 4;
+  border-radius: $size;
+  background-color: #E1E1E1;
+  text-align: center;
+  line-height: $size;
+  cursor: pointer;
+}
+
+#arrow{
+  font-size: $size;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+}
+
+#convoPartner{
+  height: $size;
+  width: $size * 4;
+  font-size: $size / 2.5;
+}
+
+#main{
+  position: relative;
+  top: $size;
+  left: $size;
+}
+
+.field{
+  height: $size;
+  width: $size * 4;
+  font-size: $size / 2.5;
+}
+
+.button{
+  font-size: $size / 2.5;
+  margin-top: $size / 5;
+  height: $size;
+  width: $size * 4;
+  border-radius: $size;
+  background-color: #E1E1E1;
+  text-align: center;
+  line-height: $size;
+  cursor: pointer;
+}
+
+.logout{
+  position: absolute;
+  left: $size * 0.8;
+  top:0;
+}
